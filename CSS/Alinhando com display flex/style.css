@@ -1,0 +1,13 @@
+.quadrado{
+    background-color: blue;
+
+}
+
+
+.container{
+    /* adiciona uma margem para centralizar os quadrados na tela*/
+    margin: 20%;
+    display: flex; /* coloca os quadrados lado a lado */
+    gap: 10px; /* adiciona espaços iguais entre cada quadrado */
+
+}

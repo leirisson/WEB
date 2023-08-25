@@ -1,0 +1,69 @@
+:root{
+    /*Cores*/
+    --coor-principal:#001C30;
+    --cor-secundaria: #176B87;
+    --cor-terciaria: #64CCC5;
+    --cor-quartearia: #fff;
+
+    --corHover:#176b874f;
+    /*Fontes*/
+    --fonte-princiapl:  Arial, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte-princiapl);
+}
+
+body{
+    background-color: var(--coor-principal);  
+    height: 100vh;  
+}
+.cabecalho{
+
+    display: flex;
+    align-items: center;
+    background-color: var(--coor-principal);
+    padding: 5%;
+}
+
+.cabecalho__menu {
+   margin: auto;
+
+}
+
+.ancora{
+    color: var(--cor-quartearia);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.ancora:hover{
+    border-bottom: 2px solid var(--cor-quartearia);
+}
+.principal{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin: 50px auto ;
+    color: var(--cor-quartearia);
+   
+}
+.main__section__perfil__pessoal{
+
+}
+.editar_foto{
+
+    height: 250px;
+    width: 250px;
+}
+
+.rodape{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    color: var(--cor-quartearia);
+}
