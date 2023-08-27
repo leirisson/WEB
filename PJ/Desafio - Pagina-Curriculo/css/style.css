@@ -21,7 +21,6 @@ body{
     height: 100vh;  
 }
 .cabecalho{
-
     display: flex;
     align-items: center;
     background-color: var(--coor-principal);
@@ -51,9 +50,7 @@ body{
     color: var(--cor-quartearia);
    
 }
-.main__section__perfil__pessoal{
 
-}
 .editar_foto{
 
     height: 250px;
