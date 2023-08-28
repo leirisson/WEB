@@ -9,18 +9,19 @@
 <body>
     <main class="conteudo">
         <div class="principal">
-            <form action="" class="adcionar" id="novoItem">
+            <div class="mochila"></div>
+            <form action="" class="adicionar" id="novoItem">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" class="txt-nome">
+                <input type="text" name="nome" id="nome">
                 <label for="quantidade">Quantidade</label>
-                <input type="text" id="quantidade" class="cadastrar">
+                <input type="number" name="quantidade" id="quantidade">
                 <input type="submit" value="Adicionar" class="cadastrar">
             </form>
         </div>
-        <div>
+        <ul id="lista">
             <li class="item"><strong>7</strong>Camisas</li>
             <li class="item"><strong>1</strong>Calça</li>
-        </div>
+        </ul>
     </main>
     <script src="./js/main.js"></script>
 </body>
