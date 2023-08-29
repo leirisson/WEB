@@ -1,0 +1,20 @@
+const alunos = ["João", "Juliana", "Ana", "Caio"]
+const medias = [10, 8, 7.5, 9]
+const lista2dimencoes = [alunos, medias]
+
+function exibeNomeENota(NomeAluno){
+    if(lista2dimencoes[0].includes(NomeAluno)){
+        const [alunos, medias] = lista2dimencoes
+
+        const indiceDoAluno = alunos.indexOf(NomeAluno) // retorna o indice do aluno
+        
+        const mediaAluno = medias[indiceDoAluno]
+
+        console.log(`O ${NomeAluno} tem a media de ${mediaAluno}`)
+
+    } else {
+        console.log(`Erro 404: Aluno não encontrado !`)
+    }
+}
+
+exibeNomeENota('João')
