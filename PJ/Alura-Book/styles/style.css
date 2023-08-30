@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("./banner.css");
+
+:root{
+    --cor-fundo: #EBECEE;
+    --cor-branco: #ffffff;
+    --cor-laranja: #EB9B00;
+    --cor-azul-degrader: #002f52f3 ;
+    
+
+    /*fontes*/
+    --font-principal:"poppins" ;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
