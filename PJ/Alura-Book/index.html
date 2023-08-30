@@ -1,74 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Document</title>
-  </head>
 
-  <body>
-    <header class="cabecalho">
-      <div class="container">
-        <input type="checkBox" id="menu" class="container__botao" />
-        <label for="menu">
-          <span class="cabecalho_menu-hamburguer container__imagem"></span>
-        </label>
-        <ul class="lista-menu">
-          <li class="lista-menu__titulo">Categoria</li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Programação</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Front-end</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Infraestrutura</a>
-          </li>
- 
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Business</a>
-          </li>
-          <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Desing & UX</a>
-          </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-------------------------------- MENU E CABEÇALHO -------------------------------------------->
+  <header class="cabecalho">
+    <div class="container">
+      <input type="checkBox" id="menu" class="container__botao" />
+      <label for="menu">
+        <span class="cabecalho_menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categoria</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Desing & UX</a>
+        </li>
+      </ul>
+      <img src="./assets/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+    </div>
+    <!-------------------------------------------------------------------------------------------------------->
+    <!---------------------------------banner----------------------------------------------------------------->
+    <div class="container">
+      <a href="#"><img src="./assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem" /></a>
+      <a href="#"><img src="./assets/Compras.svg" alt="Carrinhos de compras" class="container__imagem" /></a>
+      <a href="#"><img src="./assets/Usuario.svg" alt="Usuario" class="container__imagem" /></a>
+    </div>
+  </header>
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto>">
+      Encontre em nossa estante o que precisa para seu desenvolvimento!
+    </p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?" />
+  </section>
+  <!------------------------------------------------------------------------------------------------------------>
+  <!---------- CARROSSEL -------------------------------------------------------------------------------------------------->
+  <section class="carrossel">
+    <h2 class="carrossel-titulo">ÚLTIMOS LANÇAMENTOS</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./assets/Guia Front-end.svg" alt="Livro ANgular" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Acessibilidade.svg" alt="livro de acessibilidade" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Javascript.svg" alt="Livro sobre liguas" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/ApacheKafka.svg" alt="Apache kafka" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Portugol.svg" alt="Livro sobre caelun" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Portugol.svg" alt="Livro sobre caelun" srcset="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/Portugol.svg" alt="Livro sobre caelun" srcset="" />
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------->
+    <!----------------------------- CARDS ------------------------------------------------------------------->
+    <div class="card">
+      <!--- 1° Linhas  -->
+      <div class="card__descricao">
+        <!--1° coluna   -->
+        <div class="descricao">
+          <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+          <p class="descricao__texto">
+            Construindo uma aplicação integrada com a plataforma do Google.
+          </p>
+        </div>
+        <!--2° coluna -->
+        <img src="./assets/Angular.svg" alt="Livro-Angular" srcset="">
+      </div>
+      <!-- 2°linha-->
+      <div class="card__botoes">
+        <!-- 1° coluna  -->
+        <ul class="botoes">
+          <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="favoritos"></li>
+          <li class="botoes__item"><img src="./assets/Compras.svg" alt="carrinho de compras" srcset=""></li>
         </ul>
-        <img
-          src="./assets/Logo.svg"
-          alt="Logo da Alurabooks"
-          class="container__imagem"
-        />
+        <!-- 2coluna -->
+        <a href="#" class="botoes-ancora">Saiba mais</a>
       </div>
 
-      <div class="container">
-        <a href="#"
-          ><img
-            src="./assets/Favoritos.svg"
-            alt="Meus favoritos"
-            class="container__imagem"
-        /></a>
-        <a href="#"
-          ><img
-            src="./assets/Compras.svg"
-            alt="Carrinhos de compras"
-            class="container__imagem"
-        /></a>
-        <a href="#"
-          ><img
-            src="./assets/Usuario.svg"
-            alt="Usuario"
-            class="container__imagem"
-        /></a>
-      </div>
-    </header>
-    <section class="banner">
-      <h2 class= "banner__titulo">Já sabe por onde começar?</h2>
-      <p class="banner__texto>">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-      <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-    </section>
-  </body>
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      speed: 400,
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
 </html>

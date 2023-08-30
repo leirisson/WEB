@@ -1,0 +1,53 @@
+@import url("./reset.css");
+
+:root{
+    --cor-fundo: #EBECEE;
+    --cor-branco: #ffffff;
+    --cor-laranja: #EB9B00;
+    --cor-azul-degrader: #002f52f3 ;
+    --cor-azul:#002F52;
+    
+
+    /*fontes*/
+    --font-principal:"poppins" ;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.cabecalho{
+    background-color: var(--cor-branco);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu-logo {
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+.menu-logo img{
+    margin: 0 0.5em;
+    
+}
+.cabecalho__img{
+    background-image: url("../assets/Menu.svg") ;
+    background-repeat: no-repeat;
+}
+.menu-icones{
+    padding: 0.2em;
+    margin: 0.2em;
+    
+}
+
+.menu-icones img{
+    padding: 0.2em;
+    margin: 0 0.5em;
+}
