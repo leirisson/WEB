@@ -1,4 +1,4 @@
-const notas = [10, 6.5, 8, 7.5]
+const notas =[10, 6.5, 8, 7.5]
 let somaDasnotas = 0
 
 /*
@@ -12,4 +12,4 @@ notas.forEach((nota)=>{
     somaDasnotas += nota
 })
 
-console.log(somaDasnotas)
+//console.log(somaDasnotas)

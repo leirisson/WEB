@@ -10,7 +10,7 @@ manipulação de arrays e matrizes em JavaScript.
 6: Encontre os valores máximo e mínimo em um array.
 7: Verifique se um array contém um elemento específico.
 8: Junte dois arrays em um.
-    9: Crie uma matriz (array de arrays) e encontre a soma de todos os elementos.
+9: Crie uma matriz (array de arrays) e encontre a soma de todos os elementos.
     10: Transponha uma matriz (converta linhas em colunas e vice-versa).
     11: Encontre os elementos diagonais de uma matriz.
     12: Multiplique duas matrizes e armazene o resultado em uma nova matriz.
@@ -27,4 +27,57 @@ manipulação de arrays e matrizes em JavaScript.
     24: Verifique se uma matriz é diagonal (elementos não diagonais são zero).
     25: Encontre o segundo maior elemento em um array.
     26: Inverta a ordem dos elementos em cada linha de uma matriz.
+================================== PARTE 2 ============================================
+## 🗒️ Resposta
+Aqui estão mais 5 questões adicionais em cada tópico da lista de exercícios anterior:
 
+### Médias e Adicionar Elementos:
+1. Calcular a média dos elementos em um array.
+2. Adicionar um elemento no início de um array.
+3. Calcular a média ponderada de elementos.
+4. Adicionar múltiplos elementos a um array.
+5. Calcular a média dos valores únicos em um array.
+
+### Deletar um Valor e Juntar 2 Arrays:
+6. Deletar todos os elementos repetidos de um array.
+7. Deletar elementos iguais de dois arrays.
+8. Juntar três arrays em um único array.
+9. Juntar arrays de diferentes tamanhos.
+10. Remover elementos de um array usando um índice negativo.
+
+### Filtrar um Array e Slice:
+11. Filtrar números ímpares de um array.
+12. Filtrar strings de um array de objetos.
+13. Filtrar elementos que satisfazem uma condição específica.
+14. Usar o método `slice` para criar uma cópia superficial de um array.
+15. Filtrar elementos que começam com uma letra específica.
+
+### Splice e Include:
+16. Remover elementos usando `splice` sem modificar o array original.
+17. Inserir múltiplos elementos em posições diferentes usando `splice`.
+18. Usar `includes` para verificar se uma sub-array existe em um array.
+19. Remover elementos de um array usando `splice` e adicionar novos.
+20. Substituir parte de um array com uma sub-array usando `splice`.
+
+### IndexOf e ForEach:
+21. Encontrar o último índice de um elemento em um array usando `lastIndexOf`.
+22. Usar `forEach` para iterar e modificar um array de objetos.
+23. Encontrar o índice do primeiro número primo em um array usando `indexOf`.
+24. Iterar por um array em ordem inversa usando `forEach`.
+25. Encontrar o índice do último número negativo em um array.
+
+### Funções de Callback e Map:
+26. Usar uma função de callback para filtrar elementos maiores que um valor.
+27. Usar uma função de callback para transformar strings em objetos.
+28. Usar `map` para criar um array de objetos com propriedades adicionais.
+29. Usar uma função de callback para criar um array de valores calculados.
+30. Usar `map` para criar um array com o comprimento de cada string em outro array.
+
+### Reduce e Outros Tópicos:
+31. Usar `reduce` para concatenar elementos de um array em uma string.
+32. Usar `reduce` para calcular a soma dos quadrados dos elementos em um array.
+33. Usar `reduce` para criar um objeto de contagem de ocorrências em um array.
+34. Usar `reduce` para calcular o produto dos elementos em um array.
+35. Usar `reduce` para criar um array único com valores únicos de outro array.
+
+Lembrando que estas questões podem ser úteis para praticar diferentes aspectos da lógica de programação e manipulação de arrays em JavaScript.

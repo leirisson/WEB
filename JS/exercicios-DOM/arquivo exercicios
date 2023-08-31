@@ -1,0 +1,25 @@
+# traduzir para portugues:
+# Generate a list of 20 exercises to practice the following topics in JavaScript:
+## 🗒️ Resposta
+1. Armazene o nome de um usuário no localStorage.
+2. Crie um objeto que represente um livro com propriedades como título, autor e gênero.
+3. Construa um array de objetos, cada um descrevendo um tipo diferente de fruta.
+4. Crie uma nova tag HTML usando JavaScript, como uma <div>.
+5. Adicione conteúdo à tag criada usando sua propriedade `textContent`.
+    6. Estilize uma tag adicionando estilos CSS à sua propriedade `style`.
+    7. Remova estilos de uma tag redefinindo sua propriedade `style`.
+    8. Use `addEventListener` para anexar um evento de clique a um elemento de botão.
+    9. Altere o `innerHTML` de um parágrafo para atualizar seu conteúdo.
+    10. Altere o `innerText` de um cabeçalho para modificar seu texto visível.
+    11. Escreva uma função que calcula a área de um retângulo.
+    12. Implemente uma função que recebe dois números e retorna a soma deles.
+    13. Crie uma função que converte Celsius para Fahrenheit.
+    14. Escreva uma função para verificar se um número é par ou ímpar.
+    15. Utilize o localStorage para salvar e recuperar as preferências de um usuário.
+    16. Construa um array de objetos representando itens de lista de tarefas.
+    17. Adicione um método ao objeto de livro para exibir seus detalhes.
+    18. Use o `localStorage` para armazenar um array de objetos, como notas.
+    19. Crie um botão que acione uma função para mudar a cor de uma tag.
+    20. Implemente uma função que acrescenta um novo item de lista a uma lista não ordenada.
+
+Esses exercícios abrangem diversos tópicos do JavaScript, incluindo uso do localStorage, criação de objetos, manipulação de tags HTML, manipulação de eventos, funções e mais. Você pode encontrar explicações detalhadas e exemplos nos resultados de busca fornecidos.
