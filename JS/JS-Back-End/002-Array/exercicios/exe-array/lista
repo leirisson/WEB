@@ -10,21 +10,21 @@ manipulação de arrays e matrizes em JavaScript.
 6: Encontre os valores máximo e mínimo em um array.
 7: Verifique se um array contém um elemento específico.
 8: Junte dois arrays em um.
-9: Crie uma matriz (array de arrays) e encontre a soma de todos os elementos.
-10: Transponha uma matriz (converta linhas em colunas e vice-versa).
-11: Encontre os elementos diagonais de uma matriz.
-12: Multiplique duas matrizes e armazene o resultado em uma nova matriz.
-13: Verifique se uma matriz é simétrica.
-14: Ordene as linhas de uma matriz com base na soma de seus elementos.
-15: Encontre a linha com a maior soma de elementos em uma matriz.
-16: Gire uma matriz 90 graus no sentido horário.
-17: Achate um array aninhado (converta uma matriz em um único array).
-18: Encontre a interseção de dois arrays (elementos comuns).
-20: Encontre a união de dois arrays (combine sem duplicatas).
-21: Conte a frequência de cada elemento em um array.
-22: Crie um array irregular (arrays com comprimentos diferentes) e encontre o array mais longo.
-23: Encontre o valor médio de cada linha em uma matriz.
-24: Verifique se uma matriz é diagonal (elementos não diagonais são zero).
-25: Encontre o segundo maior elemento em um array.
-26: Inverta a ordem dos elementos em cada linha de uma matriz.
+    9: Crie uma matriz (array de arrays) e encontre a soma de todos os elementos.
+    10: Transponha uma matriz (converta linhas em colunas e vice-versa).
+    11: Encontre os elementos diagonais de uma matriz.
+    12: Multiplique duas matrizes e armazene o resultado em uma nova matriz.
+    13: Verifique se uma matriz é simétrica.
+    14: Ordene as linhas de uma matriz com base na soma de seus elementos.
+    15: Encontre a linha com a maior soma de elementos em uma matriz.
+    16: Gire uma matriz 90 graus no sentido horário.
+    17: Achate um array aninhado (converta uma matriz em um único array).
+    18: Encontre a interseção de dois arrays (elementos comuns).
+    20: Encontre a união de dois arrays (combine sem duplicatas).
+    21: Conte a frequência de cada elemento em um array.
+    22: Crie um array irregular (arrays com comprimentos diferentes) e encontre o array mais longo.
+    23: Encontre o valor médio de cada linha em uma matriz.
+    24: Verifique se uma matriz é diagonal (elementos não diagonais são zero).
+    25: Encontre o segundo maior elemento em um array.
+    26: Inverta a ordem dos elementos em cada linha de uma matriz.
 
