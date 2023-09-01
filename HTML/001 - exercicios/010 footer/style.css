@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #cececc93;
+}
+.cabecalho{
+    width: 95%;
+    background-color: rgb(253, 253, 253);
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.direita{
+    background-color: #000;
+    padding: 1em;
+}
+.esquerda{
+    background-color: #000;
+    padding: 1em;
+}
+
+.container{
+    display: flex;
+    width: 75%;
+    padding: 2em;
+    background-color: #fff;
+    margin: 2em auto;
+    justify-content: space-around;
+
+}
+.card{
+    padding: 2em;
+    width: 25%;
+    margin: 1em;
+    background-color: aqua;
+    border: 1px solid #000;
+    
+}
+
+.rodape{
+    background-color: #fff;
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+.empresas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titulo{
+    align-self: center;
+    color: #999999;
+}
+.redes-empresas, a{
+    color: #999999;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+a:hover{
+    transition: 0.8s;
+    color: #000;
+    border-bottom: 1px solid #00000073;
+}
+.titulo:hover{
+    transition: 0.8s;
+    color: #000;
+    border-bottom: 1px solid #00000073;
+}

@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.centralizar{
+    background-color: black;
+    width: 10%;
+    padding: 5em;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.muda-cor{
+    padding: 1em;
+    border-radius:10px;
+}
+.muda-cor:hover{
+    transition: 0.6s;
+    background-color: brown;
+    border: 1px solid #ededed;
+    font-weight: 600;
+    color: #fff;
+}

@@ -1,4 +1,23 @@
 @media screen and (min-width: 1024px){
+    .contai__titulo, 
+    .contai__titulo-negrito{
+        font-family: var(--font-secundaria);
+        font-size: 30px;
+        display: block;
+        
+    }
+
+    .contai__titulo{
+        font-weight: 400;
+        display:block;
+    }
+    .container__titulo-negrito{
+        font-weight: 800;
+    }
+        
     
+    
+    
+
     
 }

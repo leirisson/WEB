@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container-prinicipal{
@@ -19,14 +20,32 @@
     padding: 1rem;
 }
 
-.formulario-titulo{
-    margin:20px;
-    border-bottom: 1px  #fff solid;
+.formulario__titulo{
+    margin:20px auto;
+
 }
 .saida{
-    padding: 8px;
+    border-radius: 10px;
+    padding: 1em;
     margin: 5px 0 5px 5px;
 }
 .texto-area{
     margin: 5px;
+    border-radius: 10px;
+}
+.cadastrar{
+    padding: 1em;
+    width: 25%;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.cadastrar:hover{
+    transition: 0.5s;
+    background-color: #068602;
+    color: #fff;
+}
+
+.saida:focus{
+    border-color: #14279B;
 }

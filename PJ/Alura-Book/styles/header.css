@@ -58,3 +58,6 @@
     text-transform: uppercase;
 }
 
+.container__titulo{
+    display: none;
+}

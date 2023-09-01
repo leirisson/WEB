@@ -5,11 +5,11 @@
 # 1. Crie um parágrafo `<p>` com o texto "Bem-vindo ao meu site!"
 # 2. Faça uma lista não ordenada `<ul>` com 5 itens sobre suas atividades favoritas.
 # 3. Crie um link `<a>` para o seu perfil nas redes sociais.
-4. Modele um formulário de contato com campos para nome, email e mensagem.
-5. Estilize um cabeçalho `<h1>` com uma cor de fundo e texto centralizado.
-6. Construa um botão com efeito hover que muda de cor quando passa o mouse.
-7. Crie uma tabela `<table>` com informações fictícias sobre produtos.
-8. Adicione uma imagem à página com um atributo `alt` descritivo.
+# 4. Modele um formulário de contato com campos para nome, email e mensagem.
+# 5. Estilize um cabeçalho `<h1>` com uma cor de fundo e texto centralizado.
+# 6. Construa um botão com efeito hover que muda de cor quando passa o mouse.
+# 7. Crie uma tabela `<table>` com informações fictícias sobre produtos.
+# 8. Adicione uma imagem à página com um atributo `alt` descritivo.
 9. Modele um rodapé `<footer>` com direitos autorais e links úteis.
 10. Implemente uma lista ordenada `<ol>` com passos para uma receita fictícia.
 11. Faça um menu de navegação horizontal usando uma lista `<ul>`.
