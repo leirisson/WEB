@@ -14,90 +14,10 @@
     font-family: var(--fonte-principal);
 }
 
-.cabecalho{
-    background-color: var(--cor-vermelho-principal);
-    display: flex;
-    font-size: 15pt;
-    align-items: center;
-    justify-content: space-around;
-    gap: 50px;
-    padding: 2% 6%;
-}
-.cabecalho__menu a{
-    color: var(--cor-branco-princiapl);
-    text-decoration: none;
-    padding-left: 5px;
-    margin: 0px 5px 0px 0px;
-    transition: 0.5;
-}
-.cabecalho__menu a:hover{
-    font-size: 18pt;
-    border-bottom: #fff;
-}
-.pesquisa{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.pesquisa__campo-pesquisa{
-    padding: 5px;
-    width: 25rem;
-    height: 2.5rem;
-    border: none;
-    box-shadow: 0 0 7px rgba(255, 255, 255,0.9);
-    
-
-}
-
-.pesquisa__campo-pesquisa:focus{
-    outline-color: var(--cor-branco-princiapl);
-}
-
-.ofertas-dia{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px ;
-    flex-wrap: wrap;
-    margin: 20px 0px 10px 2px;
-}
-
-
-
-.card-produtos{
-    display: flex;
-    width: 16.62rem;
-    height: 24.9rem;
-    flex-direction: column;
-    padding: 10px;
-    text-align:left;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 7px rgba(37, 37, 37, 0.9);
-    border-radius: 5px;
-
-}
-
-.card-produto-descricao{
-    margin-top: 5px;
-}
-
-.card-produto-descricao-preco{
-    color: var(--cor-preco);
-}
-
-
-@media (max-width:1200){
-    .cabecalho{
-        width: auto;
-    }
-  
-    .pesquisa__campo-pesquisa{
-        width: 2rem ;
-    }
-    .ofertas-dia{
-        flex-direction: column;
-    }
-
-
+.cabeçalho-menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Menu.svg");
+    background-repeat: no-repeat;
+    margin: 20px;
 }

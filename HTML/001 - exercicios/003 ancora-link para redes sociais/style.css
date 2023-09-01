@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgba(243, 243, 243, 0.678);
+}
+
+.container{
+    background-color: #00708bf8;
+    width: 75%;
+    margin: 10% auto;
+    padding: 1em;
+    border-radius: 9px;
+    box-shadow: 1px 1px 4px rgba(2, 49, 13, 0.699);
+}
+
+.container__redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container__redes-itens{
+    display: flex;
+    padding: 0.5em;
+    margin: 1rem 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 193, 22);
+    font-weight: 800;
+    box-shadow: 1px 1px 4px rgba(2, 49, 13, 0.699);
+}
+
+.container__redes-itens:hover{
+    transition: 0.5s;
+    background-color: #f35416;
+    box-shadow: 1px 1px 4px rgba(248, 17, 0, 0.877);
+    border-radius: 7px;
+}
+.container__redes-itens-icones{
+    margin: 0 1rem 0 0;
+}

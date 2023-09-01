@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #002f52f3;
+    margin: 1em 0;
+    padding: 1.5em;
+
+}
+
+.topicos__titulo{
+    color: #fff;
+    
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    justify-content: center;
+
+}
+
+.topicos__itens{
+    background-color: #EB9B00;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.7em;
+    margin: 0.5em 0.5em;
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    padding: 2px;
+    text-decoration: none;
+}

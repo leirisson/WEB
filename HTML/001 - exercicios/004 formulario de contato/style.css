@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-prinicipal{
+    background-color: #14279B;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    margin: 5% auto;
+    padding:1rem;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+
+.container__principal-formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.formulario-titulo{
+    margin:20px;
+    border-bottom: 1px  #fff solid;
+}
+.saida{
+    padding: 8px;
+    margin: 5px 0 5px 5px;
+}
+.texto-area{
+    margin: 5px;
+}

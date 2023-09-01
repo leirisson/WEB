@@ -1,0 +1,36 @@
+# gere uma lista de 30 questões para treinar HTML e CSS
+## 🗒️ Answer
+
+
+# 1. Crie um parágrafo `<p>` com o texto "Bem-vindo ao meu site!"
+# 2. Faça uma lista não ordenada `<ul>` com 5 itens sobre suas atividades favoritas.
+# 3. Crie um link `<a>` para o seu perfil nas redes sociais.
+4. Modele um formulário de contato com campos para nome, email e mensagem.
+5. Estilize um cabeçalho `<h1>` com uma cor de fundo e texto centralizado.
+6. Construa um botão com efeito hover que muda de cor quando passa o mouse.
+7. Crie uma tabela `<table>` com informações fictícias sobre produtos.
+8. Adicione uma imagem à página com um atributo `alt` descritivo.
+9. Modele um rodapé `<footer>` com direitos autorais e links úteis.
+10. Implemente uma lista ordenada `<ol>` com passos para uma receita fictícia.
+11. Faça um menu de navegação horizontal usando uma lista `<ul>`.
+12. Crie um elemento `<div>` com um background gradiente.
+13. Estilize um link `<a>` para se parecer com um botão.
+14. Use CSS para alinhar um elemento no centro vertical e horizontal.
+15. Modele uma caixa de alerta colorida usando uma `<div>`.
+16. Adicione um ícone antes de um título usando pseudo-elementos.
+17. Crie um layout responsivo que se ajuste a diferentes tamanhos de tela.
+18. Faça uma animação de fade-in em um elemento ao carregar a página.
+19. Implemente um menu de navegação fixo no topo da página.
+20. Estilize um formulário de login com campos de entrada.
+21. Crie uma lista de links de artigos relacionados no final de um texto.
+22. Modele um card com imagem e descrição de um produto fictício.
+23. Adicione uma sombra sutil a um elemento usando CSS.
+24. Use CSS Grid para criar uma grade de imagens.
+25. Estilize um botão de "Voltar ao topo" que aparece ao rolar a página.
+26. Modele um pop-up modal com informações adicionais sobre um tópico.
+27. Crie um efeito de transição suave em um hover de link.
+28. Faça um formulário de inscrição com validação de entrada.
+29. Estilize uma barra de progresso que indica o progresso de uma tarefa.
+30. Modele um slider de imagens que muda automaticamente a cada 5 segundos.
+
+**Note:** Os exercícios são baseados em conhecimentos típicos de HTML e CSS e podem ser adaptados para atender às suas necessidades de treinamento.
