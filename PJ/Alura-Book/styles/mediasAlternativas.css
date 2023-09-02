@@ -1,0 +1,16 @@
+@media screen and (min-width:2000px) {
+    .banner__pesquisa{
+        align-self: center;
+        width: 30%;
+    }
+    .banner__pesquisa::placeholder{
+        background-position: 32em;
+    }
+}
+
+@media screen  and (min-width:100px) {
+    .banner__pesquisa{
+        align-self: center;
+        width: 60%;
+    }
+}

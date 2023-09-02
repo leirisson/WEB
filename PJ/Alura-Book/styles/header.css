@@ -64,3 +64,23 @@
 .opções{
     display: none;
 }
+
+.lista-rodape{
+    display: none;
+}
+
+.container__texto{
+    display: none;
+}
+.inconesTable{
+    display: flex;
+    justify-content:right;
+}
+
+.container__botao:checked~ .container__rotulo > .cabecalho_menu-hamburguer{
+    background-image: url("../assets/Menu\ Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo{
+    background-color: var(--cor-azul-degrader);
+}

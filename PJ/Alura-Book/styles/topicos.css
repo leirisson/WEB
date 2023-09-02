@@ -25,3 +25,9 @@
     background-color: var(--cor-laranja);
     font-weight: 700;
 }
+
+@media screen and (min-width:1728px) {
+    .topicos{
+        padding: 3em 35vw;
+    }
+}

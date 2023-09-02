@@ -4,7 +4,9 @@
 @import url("./topicos.css");
 @import url("./contato.css");
 @import url("./footer.css");
-@import url("./mediaQuery.css");
+@import url("./mediaQueryTblet.css");
+@import url("./mediaqueryDesktop.css");
+@import url("./mediasAlternativas.css");
 
 
 :root{
@@ -14,6 +16,8 @@
     --cor-azul-degrader: #002f52f3 ;
     --cor-azul:#002F52;
     --cor-black: #000;
+    --cor-cinza: #474646;
+    --cor-cinza-claro:#858585;
     
 
     /*fontes*/
