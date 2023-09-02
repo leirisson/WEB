@@ -22,9 +22,13 @@ form.addEventListener('submit', (evento)=>{
     const existe = itens.find(elemento => elemento.nome == nome) // veirifcando se elemento ja existe no array
     if(existe){
         itemAtual.id = existe.id
+
         atualizaElemento(itemAtual)
+
+        itens[itens.findIndex(elemento => elemento.id === existe.id)] = itemAtual // atualizando item no local storage
+
     } else{
-        itemAtual.id = itens.length
+        itemAtual.id = itens[itens.length -1] ? (itens[itens.length -1]).id +1 : 0
         criar_elemento(itemAtual)
         itens.push(itemAtual)
     }
@@ -48,7 +52,12 @@ function criar_elemento(item){
     numeroItem.innerHTML = item.quantidade // adcionando a quantidade dentro da tag strong
     novoItem.appendChild(numeroItem) // criando um objeto com quantidade e nome
     novoItem.innerHTML += item.nome
+
+
+    
     lista.appendChild(novoItem) // adcionando o objeto criado para a lista
+
+    novoItem.appendChild(botaoDeletar(item.id))
 
 }
 
@@ -56,3 +65,21 @@ function atualizaElemento(item){
     console.log(document.querySelector("[data-id='" +item.id+"']").innerHTML = item.quantidade)
 }
 
+
+
+// função para deletar um elemento
+function botaoDeletar(id){
+    const elemento = document.createElement("button")
+    elemento.innerText = "x"
+    elemento.addEventListener("click", function(){
+        deletaElemento(this.parentNode, id)
+    })
+
+    return elemento
+}
+
+function deletaElemento(tag, id){
+    tag.remove()
+    itens.splice(itens.findIndex(elemento => elemento.id === id), 1)
+    localStorage.setItem("itens", JSON.stringify(itens))
+}
