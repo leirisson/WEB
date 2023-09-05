@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 100vh auto;
+    padding: 1em;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer"
+     ;
+}
+
+.o-header{
+    background-color: #BC20E2;
+    grid-area: header;
+}
+.o-aside{
+    background-color: yellowgreen;
+    grid-area: aside;
+}
+.o-main{
+    background-color: #BC20E2;
+    grid-area: main;
+}
+.o-footer{
+    grid-area: footer;
+    background-color: #BC20E2;
+}
