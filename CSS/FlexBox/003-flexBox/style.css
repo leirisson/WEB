@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+}
+
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*usado para palvras não quebrarem e ficar em uma linha só*/
+    overflow: scroll;
+    gap: 15px;
+}
+.superior__item{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 14px;
+    margin: 0.5em;
+}
