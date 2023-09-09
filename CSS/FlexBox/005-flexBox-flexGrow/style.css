@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto;
+    background-color: blue;
+    height: 50vh;
+    width: 700px;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.classe1{
+    flex-grow: 1;
+    width: 10%;
+    background-color: red;
+    height: 60%;
+    color: #fff;
+    text-align: center;
+}
+
+.classe2{
+    flex-grow: 0.5;
+    width: 10%;
+    background-color: #000;
+    height: 60%;
+    color : #fff;
+    text-align: center;
+}
