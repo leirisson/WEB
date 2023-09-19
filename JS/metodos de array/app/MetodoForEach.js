@@ -1,5 +1,6 @@
 const elementoParaInserirLivros = document.querySelector("#livros")
 function exibirOsLivrosNaTela(listaDeLivros){
+    elementoParaInserirLivros.innerHTML = ''
     listaDeLivros.forEach(livro => {
         elementoParaInserirLivros.insertAdjacentHTML("beforeend", /*html*/`
         <div class="livro">
