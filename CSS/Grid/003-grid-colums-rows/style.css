@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 200px  ;
+    grid-template-rows: 150px auto 100px ;
+}
+.item{
+    background-color: #048;
+    color: #fff;
+    border: 2px solid #000;
+    text-align: center;
+}
