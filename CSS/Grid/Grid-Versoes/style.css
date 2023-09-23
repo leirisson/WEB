@@ -1,0 +1,156 @@
+body{
+    display: grid;
+    color:#fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+@media screen and (min-width: 360px) {
+
+    .menu{
+        background-color: rgb(209, 34, 81);
+        grid-area: menu-pg;
+        grid-column: 1/2;
+        grid-row: 3/3;
+    }
+    .cabecalho{
+        background-color: rgb(2, 2, 61);
+        grid-area: cabecalho;
+        grid-column: 1/2;
+        grid: 1/1;
+    }
+    .main{
+        background-color: rgb(12, 17, 52);
+        grid-area: main;
+        height: 150px;
+        grid-column: 1/2;
+        grid-row: 5/5;
+    }
+    .hero{
+        background-color: rgb(0, 140, 255);
+        height: 200px;
+        grid-area: hero;
+        grid-column: 1/2;
+        grid-row: 4/4;
+    }
+    .banner{
+        background-color: rgb(255, 208, 0);
+        height: 100px;
+        color: #000;
+        grid-area: banner;
+        grid-column: 1/2;
+        grid-row: 6/6;
+    }
+    .extra{
+        background-color: rgb(68, 201, 68);
+        height: 100px;
+        color: #000;
+        grid-area: extra;
+        grid-column:1/2;
+        grid-row:7/7;
+    }
+    .imagem{
+        background-color: aquamarine;
+        height: 100px;
+        color: #000;
+        grid-area: imagem;
+        grid-column:1/2;
+        grid-row:8/8;
+            
+    .body{
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "cabecalho"
+        "menu-pg"
+        "main"
+        "hero"
+        "bnner"
+        "extra"
+        "imagem"
+        ;
+    }
+    }
+
+
+
+}
+
+/* @media screen and (min-width:720px) {
+    .cabecalho{
+        grid-area: cabecalho;
+        grid-column: 1/4;
+        grid: 1/1;
+    }
+    .hero{
+        grid-column: 1/4;
+        grid-row: 3/3;
+    }
+    .menu{
+        width: 100px;
+        grid-column: auto;
+        grid-row: 4/8;
+        height: 50vh;
+    }
+    .main{
+       
+        grid-column: 2/4;
+        grid-row: 4/4;
+    }
+    .banner{
+        grid-column: 2/4;
+    }
+    .extra{
+        grid-column: 2/3;
+        grid-row: 7/7;
+    }
+    .imagem{
+        grid-column: 3/4;
+        grid-row: 7/7;
+    }
+
+  
+    
+} */
+
+@media screen and (min-width:720px) {
+    .cabecalho{
+        grid-area: cabecalho;
+      
+    }
+    .hero{
+       grid-area: hero;
+    }
+    .menu{
+      grid-area: menu;
+    }
+    .main{
+       grid-area: main;
+       
+
+    }
+    .banner{
+      grid-area: banner;
+    }
+    .extra{
+      grid-area: extra;
+    }
+    .imagem{
+        grid-area: imagem;
+    }
+
+    .body{
+        display: grid;
+        grid-template-columns: 100px 100px  100px  100px  100px ;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "cabecalho cabecalho cabecalho cabecalho"
+        "hero hero hero hero"
+        "menu main main main"
+        "menu banner banner banner"
+        "menu extra extra imagem"
+        ;
+    }
+    
+}
