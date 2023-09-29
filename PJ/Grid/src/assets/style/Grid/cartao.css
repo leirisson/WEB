@@ -1,0 +1,11 @@
+.secao-horizontal .cartao{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.secao-horizontal .cartao__imagem{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end:3;
+}
