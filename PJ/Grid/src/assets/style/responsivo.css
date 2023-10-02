@@ -28,7 +28,7 @@
         font: 700 14px/20px Open Sans, sans-serif;
     }
 
-    .secao-vertical .cartao {
+    .secao-horizontal .cartao {
         background-color: transparent;
         padding: 0;
     }
@@ -36,7 +36,9 @@
     .secao-vertical .cartao:nth-child(n+3) {
         display: none;
     }
-
+    .secao-horizontal .cartao{
+        column-gap: 0.5rem;
+    }
     .secao-vertical .cartao__imagem {
         height: 156px;
     }
