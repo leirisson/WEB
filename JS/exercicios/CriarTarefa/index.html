@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 70%;
+            border-radius: 10px;
+            background-color: #f2f2f2;
+            box-shadow: 5px 6px 15px rgba(0,0,0,0.9);
+            margin: 40px  auto;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        .lista{
+            display: flex;
+            flex-direction: column;
+        }
+        .tem{
+            font-size: 20px;
+            font-weight: 700px;
+
+        }
+        .form{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+    <title>tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de tarefas</h1>
+        <form id="formulario" action="">
+            <input type="text" id="texto" placeholder="digite uma tarefa">
+            <button>Adicionar Tarefa</button>
+        </form>
+        <ul class="lista"></ul>
+    </div>
+</body>
+</html>
